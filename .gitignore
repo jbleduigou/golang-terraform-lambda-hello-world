@@ -19,3 +19,19 @@
 
 # Go workspace file
 go.work
+
+# IntelliJ
+.idea
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Build outputs
+bootstrap
+bootstrap.zip
+hello
+hellox86.zip
