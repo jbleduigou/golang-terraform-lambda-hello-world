@@ -1,3 +1,5 @@
+build: buildx86 buildarm64
+
 buildx86:
 	GOARCH=amd64 GOOS=linux  go build -o hello ./x86/main.go
 	zip hellox86.zip hello
